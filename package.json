@@ -1,0 +1,35 @@
+{
+  "name": "knockout-todo",
+  "version": "0.0.1",
+  "description": "To study a knockout on the example of application todo",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "node ./bin/www",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CBuqpT/knockout-todo.git"
+  },
+  "keywords": [
+    "knockout",
+    "node.js",
+    "express",
+    "pug"
+  ],
+  "author": "Machkovskiy Vladimir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CBuqpT/knockout-todo/issues"
+  },
+  "homepage": "https://github.com/CBuqpT/knockout-todo#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.3",
+    "morgan": "^1.9.1",
+    "pug": "^2.0.3",
+    "serve-favicon": "^2.5.0"
+  }
+}
